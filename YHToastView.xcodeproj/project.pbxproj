@@ -13,6 +13,7 @@
 		A133B1DF1B2343B700D9FA3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A133B1DE1B2343B700D9FA3A /* Images.xcassets */; };
 		A133B1E21B2343B700D9FA3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A133B1E01B2343B700D9FA3A /* LaunchScreen.xib */; };
 		A133B1EE1B2343B700D9FA3A /* YHToastViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A133B1ED1B2343B700D9FA3A /* YHToastViewTests.m */; };
+		A1742ED91B2344FB00B94CD8 /* YHToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1742ED81B2344FB00B94CD8 /* YHToastView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		A133B1E71B2343B700D9FA3A /* YHToastViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHToastViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A133B1EC1B2343B700D9FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A133B1ED1B2343B700D9FA3A /* YHToastViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHToastViewTests.m; sourceTree = "<group>"; };
+		A1742ED71B2344FB00B94CD8 /* YHToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHToastView.h; sourceTree = "<group>"; };
+		A1742ED81B2344FB00B94CD8 /* YHToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHToastView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				A133B1D61B2343B700D9FA3A /* AppDelegate.m */,
 				A133B1D81B2343B700D9FA3A /* ViewController.h */,
 				A133B1D91B2343B700D9FA3A /* ViewController.m */,
+				A1742ED71B2344FB00B94CD8 /* YHToastView.h */,
+				A1742ED81B2344FB00B94CD8 /* YHToastView.m */,
 				A133B1DE1B2343B700D9FA3A /* Images.xcassets */,
 				A133B1E01B2343B700D9FA3A /* LaunchScreen.xib */,
 				A133B1D11B2343B700D9FA3A /* Supporting Files */,
@@ -218,6 +223,7 @@
 				A133B1DA1B2343B700D9FA3A /* ViewController.m in Sources */,
 				A133B1D71B2343B700D9FA3A /* AppDelegate.m in Sources */,
 				A133B1D41B2343B700D9FA3A /* main.m in Sources */,
+				A1742ED91B2344FB00B94CD8 /* YHToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +414,7 @@
 				A133B1F31B2343B700D9FA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A133B1F41B2343B700D9FA3A /* Build configuration list for PBXNativeTarget "YHToastViewTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +423,7 @@
 				A133B1F61B2343B700D9FA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
