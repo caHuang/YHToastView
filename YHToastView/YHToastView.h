@@ -10,4 +10,7 @@
 
 @interface YHToastView : UIView
 
++ (void)showWithMessage:(NSString *)message;
++ (void)showWithMessage:(NSString *)message animated:(BOOL)animated;
+
 @end
