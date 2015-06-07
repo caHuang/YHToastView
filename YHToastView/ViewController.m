@@ -7,21 +7,33 @@
 //
 
 #import "ViewController.h"
+#import "YHToastView.h"
 
 @interface ViewController ()
+
+- (void)showToast;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - Lifecycle
+
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  
+  UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+  [button setTitle:@"Show Toast" forState:UIControlStateNormal];
+  [button sizeToFit];
+  button.center = self.view.center;
+  [button addTarget:self action:@selector(showToast) forControlEvents:UIControlEventTouchUpInside];
+  [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+#pragma mark - Private
+
+- (void)showToast {
+  [YHToastView showWithMessage:@"I'm toast" animated:YES];
 }
 
 @end
