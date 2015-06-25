@@ -1,5 +1,7 @@
 # YHToastView
 
+[![Build Status](https://travis-ci.org/caHuang/YHToastView.svg?branch=master)](https://travis-ci.org/caHuang/YHToastView)
+
 YHToastView is a message view, it like Android-style toast.
 
 ## Example
