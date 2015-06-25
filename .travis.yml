@@ -1,6 +1,2 @@
 language: objective-c
-before_install:
-    - brew update
-    - brew install xctool
-script:
-    - xctool -project YHToastView -scheme YHToastView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -workspace YHToastView.xcworkspace -scheme YHToastView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
